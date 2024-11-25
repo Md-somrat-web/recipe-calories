@@ -23,42 +23,75 @@
   </head>
   <body>
     <!-- navbar start-->
-    <div class="navbar bg-base-100 px-10 my-6">
-      <div class="flex-1">
-        <a class="btn btn-ghost text-3xl font-bold">Recipe Calories</a>
-      </div>
-      <div>
-        <ul class="flex mr-60">
-          <li class="mr-5"><a href="#">Home</a></li>
-          <li class="mr-5"><a href="#">Recipe</a></li>
-          <li class="mr-5"><a href="#">About</a></li>
-          <li class="mr-5"><a href="#">Search</a></li>
-        </ul>
-      </div>
-      <div class="flex-none gap-2">
-        <div class="form-control">
-          <input
-            type="text"
-            placeholder="Search"
-            class="input input-bordered rounded-full w-24 md:w-auto"
-          />
+    <header>
+      <div class="navbar bg-base-100 px-10 my-6">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-3xl font-bold">Recipe Calories</a>
         </div>
-        <div class="dropdown dropdown-end">
-          <div
-            tabindex="0"
-            role="button"
-            class="btn btn-ghost btn-circle avatar"
-          >
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS Navbar component"
-                src="images/navbar-logo.png"
-              />
+        <div>
+          <ul class="flex mr-60">
+            <li class="mr-5"><a href="#">Home</a></li>
+            <li class="mr-5"><a href="#">Recipe</a></li>
+            <li class="mr-5"><a href="#">About</a></li>
+            <li class="mr-5"><a href="#">Search</a></li>
+          </ul>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <input
+              type="text"
+              placeholder="Search"
+              class="input input-bordered rounded-full w-24 md:w-auto"
+            />
+          </div>
+          <div class="dropdown dropdown-end">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost btn-circle avatar"
+            >
+              <div class="w-10 rounded-full">
+                <img
+                  alt="Tailwind CSS Navbar component"
+                  src="images/navbar-logo.png"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </header>
     <!-- navbar End-->
+    <!-- banner start -->
+    <div class="container mx-auto">
+      <div
+        class="bg-[url('/images/banner.png')] h-[100vh] bg-no-repeat items-center flex justify-center rounded-3xl"
+      >
+        <div class="text-center justify-center items-center">
+          <h2 class="text-5xl font-bold text-white leading-snug">
+            Discover an exceptional cooking <br />
+            class tailored for you!
+          </h2>
+          <p class="text-white mt-10">
+            Learn and Master Basic Programming, Data Structures, Algorithm, OOP,
+            Database and solve 500+ coding <br />
+            problems to become an exceptionally well world-class Programmer.
+          </p>
+          <div class="mt-10">
+            <button
+              class="btn px-7 py-5 bg-[#0BE58A] rounded-full font-semibold items-center"
+            >
+              Expolore Now
+            </button>
+            <button
+              class="btn px-7 py-5 border border-[#ffffff] bg-transparent text-white rounded-full font-semibold ml-4 items-center"
+            >
+              Our Feedback
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner end -->
   </body>
 </html>
